@@ -1,0 +1,64 @@
+body{
+    margin:0 10%;
+    background-image:url('azert.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    border: none;
+}
+h1{
+    color: red;
+    font-size: 40px;
+    float: left;
+    padding-top: 1%;
+}
+span{
+    color: blue;
+    font-size: 40px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: none;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navright{
+    padding-right:3% ;
+    padding-left: 3%;
+    padding-bottom: 3%;
+    float: right ;
+    padding-top: 6%;
+}
+.photo{
+    width: 100%;
+}
+p.AboutP{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav#NavBar a{
+    text-decoration: none;
+}
+img#HeaderImg:hover{
+    width: 800px;
+}
+#HeaderImg{
+    width: 300px;
+    transition:width 1s;
+    padding-left: 20%;
+    border: 2px red dotted;
+    margin-left: 10%;
+}
+#T tr:nth-child(even){
+    background-color: chartreuse;
+}
+#T tr:nth-child(odd){
+    background-color: chartreuse;
+}
